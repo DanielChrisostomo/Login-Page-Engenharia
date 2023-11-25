@@ -1,0 +1,30 @@
+.button {
+  padding: 1rem 2rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  margin-top: 1rem;
+  background-color: #23c483;
+  min-width: 136px;
+}
+
+.button:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+

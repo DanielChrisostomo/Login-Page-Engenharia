@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 0.8rem;
+}
+
+.wrapper:hover  {
+  transform: translateY(-7px);
+}
+
+.input {
+  max-width: 300px;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  box-shadow: 4px 4px 12px 2px rgb(146, 145, 145),
+    inset 2px 2px 2px rgb(219, 219, 219),
+    -1px -1px 20px rgba(206, 206, 206, 0.781);
+  outline: none;
+  border-radius: 10px;
+  background: #fff;
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+}
+
+
+.icon {
+  position: absolute;
+  z-index: 1;
+  left: 4px;
+  box-sizing:border-box;
+}
+
+
+
+
+
