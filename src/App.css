@@ -53,7 +53,7 @@ a:hover{
 }
 
 .loginImg {
-  background: url('../../img/jovem-eng.jpg');
+  background: url('../img/jovem-eng.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
